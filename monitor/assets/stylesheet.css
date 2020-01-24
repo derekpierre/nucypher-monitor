@@ -235,7 +235,6 @@ label, legend {
 
 #state-table > td {
     padding: 0;
-    border-bottom: 1px solid white;
     margin-right: 2px;
     margin-bottom: 2em;
 }
@@ -249,6 +248,12 @@ label, legend {
     width: 10em;
     color: black;
     font-weight: 900;
+}
+
+.state-current {
+    border-style: solid;
+    border-width: 7px;
+    border-color: red;
 }
 
 .state > span {
